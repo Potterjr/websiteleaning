@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="send.php?" id="1234" method="post">
+        <h1>Register</h1>
+        <div style="display:block;width:150px">
+            user name:<input type="text" name="user_name" required>
+            password:<input type="password" name="pass" required>
+            comment:<textarea name="comment" id="" cols="30" rows="3" required></textarea>
+            <pre>
+                <input type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female" required>Female
+                <input type="radio" name="gender" value="lgbtq" required>LGBTQ
+            </pre>
+            Hobby: <br>
+            <input type="checkbox" name="hobby" value="play football" >Play football<br>
+            <input type="checkbox" name="hobby" value="play golf" >Play golf<br>
+            <input type="checkbox" name="hobby" value="play E-Sport" >E-Sport<br><br>
+            <input type="checkbox" name="hobby" value="Sleep" >Sleep<br><br>
+                <select name="Vehicle[]" multiple>
+                    <option selected disabled>Select onec</option>
+                    <optgroup label="Electric Car">
+                        <option value="Goodcat">Good Cat</option>
+                        <option value="Tesla">Tesla</option>
+                        <option value="BYD">BYD</option>
+                    </optgroup>
+                    <optgroup label="Mybrid Car">
+                        <option value="Toyota">Toyota</option>
+                        <option value="Honda">Honda</option>
+                    </optgroup>
+                </select>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="grid-item">
+            <div class="card">
+                <a href="1.html"> <img src="1.png" alt="Avatar" style="width:100%"></a>
+                <div class="container">
+                    <h4><b>ขนมจีนน้ำเงี้ยว</b></h4>
+                    <p>อาหารภาคเหนือ</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="2.html"> <img src="2.png" alt="Avatar" style="width:100% "></a>
+                <div class="container">
+                    <h4><b>แกงเทโพ</b></h4>
+                    <p>อาหารภาคกลาง</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="grid-item">
+            <div class="card">
+                <a href="3.html"> <img src="3.png" alt="Avatar" style="width:100% "></a>
+                <div class="container">
+                    <h4><b>แกงหน่อไม้</b></h4>
+                    <p>อาหารภาคอีสาน </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="4.html"> <img src="4.png" alt="Avatar" style="width:100% "></a>
+                <div class="container">
+                    <h4><b>แกงไตปลา</b></h4>
+                    <p>อาหารภาคใต้</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item1"></div>
+
+       
+    </div>
+    <a href="main.html">
+        <h1 style="text-align: center;">ย้อนกลับ</h1>
+    </a>
+</body>
+
+</html>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: -50px;
+        padding: 5px;
+        align-self: center;
+
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+
+
+
+    }
+
+    .item1 {
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        border-radius: 4px;
+        margin: auto;
+
+
+
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+</style>

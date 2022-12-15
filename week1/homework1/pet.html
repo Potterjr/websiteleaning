@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สัตว์เลียงหน้ารัก</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section>
+            <a href="https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%B2">
+                <button style="background-color: red;">หมา</button>
+            </a>
+            <a href="https://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%A1%E0%B8%A7">
+                <button style="background-color: #4CAF50;">แมว</button>
+            </a>
+            <a href="https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%81%E0%B9%88">
+                <button style="background-color: blue;">ไก่</button>
+            </a>
+            <a href="main.html">
+                <button style="background-color: rgb(255, 0, 149);">ย้อนกลับ</button>
+        </section>
+        
+    </div>
+ 
+</body>
+
+</html>
+<style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100vh;
+        align-items: center;
+        justify-items: center;
+        /* adjusted */
+    }
+
+    button {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    section {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 4px;
+        align-items: center;
+        justify-items: center;
+    }
+</style>
