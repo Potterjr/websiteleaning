@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center><br>
+        <h1>upload file</h1><br>
+<div class="form-group" style="display: table-cell; ">
+
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        <input type="file" name="myfile[]" multiple="multiple" class="form-control-file"><br>
+      text:
+      <br>
+        <textarea name="detail"class="form-control" rows="5"></textarea><br>
+        <input type="submit" value="ok"class="btn btn-primary">
+        <input type="reset" value="reset"class="btn btn-danger">
+    </form>
+</div>
+
+</body>
+
+</html>
