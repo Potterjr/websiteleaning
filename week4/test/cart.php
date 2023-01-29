@@ -3,7 +3,7 @@ class ShoppingCart{
 private $name;
 private $item;
 public function __construct ($name="Guest"){
-$this->nane - $name;
+$this->name - $name;
 }
 public function gettlane(){ return $this->name; }
 
